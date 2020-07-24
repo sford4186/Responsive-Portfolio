@@ -42,10 +42,23 @@ h1 {
     margin: 40px auto;
   }
 
+  @media screen and (max-width: 980px) {
+    body {
+      background-color: pink;
+    }
   
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+ 
+  }
   
  
   
+  /* Width at 768px and below */
   
   @media screen and (max-width: 768px) {
     body {
@@ -61,21 +74,7 @@ h1 {
  
   }
   
-  /* Additional Screen Sizes */
-  
-  /* Width at 320px and below */
-  @media screen and (max-width: 980px) {
-    body {
-      background-color:pink;
-    }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-  
-  }
+
   
   /* Width at 640px and below */
   @media screen and (max-width: 640px) {

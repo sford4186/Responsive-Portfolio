@@ -1,15 +1,10 @@
-/**
- * Media Query Style Exercise: Solved;
- **/
+
+/*Stylesheet to index.html*/
 
  * {
     box-sizing: border-box;
   }
   
-  /*
-    The background color will be #ccc
-    at browser widths above 768px
-  */
  
   body {
     /* Typography */
@@ -21,7 +16,6 @@
   }
   
 
- 
   /*
     The width of the wrapper will be 1024px
     at browser widths above 768px
@@ -49,12 +43,9 @@
  
   }
   
-  /* Additional Screen Sizes */
-  
-  /* Width at 320px and below */
   @media screen and (max-width: 980px) {
     body {
-      background-color:pink;
+      background-color: pink;
     }
   
     .wrapper {
@@ -63,16 +54,15 @@
       padding: 20px;
     }
   
+ 
   }
-  
+    
   /* Width at 640px and below */
   @media screen and (max-width: 640px) {
     body {
       background-color:pink;
     }
-  
-
-  
+    
   }
   .footer {
     padding: 30px;

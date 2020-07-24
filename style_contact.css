@@ -1,16 +1,12 @@
 /**
- * Media Query Style Exercise: Solved;
+ * Stylesheet for Contact.html
  **/
 
  * {
     box-sizing: border-box;
   }
   
-  /*
-    The background color will be #ccc
-    at browser widths above 768px
-  */
- 
+  
   body {
     /* Typography */
     font-size: 18px;
@@ -53,12 +49,9 @@ h1 {
  
   }
   
-  /* Additional Screen Sizes */
-  
-  /* Width at 320px and below */
   @media screen and (max-width: 980px) {
     body {
-      background-color:pink;
+      background-color: pink;
     }
   
     .wrapper {
@@ -67,17 +60,23 @@ h1 {
       padding: 20px;
     }
   
+ 
   }
+
   
   /* Width at 640px and below */
   @media screen and (max-width: 640px) {
     body {
       background-color:pink;
     }
-  
-
-  
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+      }
+ 
   }
+
   .footer {
     padding: 30px;
     clear: both;
