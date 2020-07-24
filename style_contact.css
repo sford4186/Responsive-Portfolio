@@ -1,0 +1,89 @@
+/**
+ * Media Query Style Exercise: Solved;
+ **/
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  /*
+    The background color will be #ccc
+    at browser widths above 768px
+  */
+ 
+  body {
+    /* Typography */
+    font-size: 18px;
+    line-height: 27px;
+    color: #1f1c1ce1;
+  
+    /* Visual */
+    background-color: pink;
+  }
+  
+h1 {
+    color:  #1f1c1ce1;
+    text-align:center;
+}
+ 
+  /*
+    The width of the wrapper will be 1024px
+    at browser widths above 768px
+  */
+  .wrapper {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 40px auto;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: pink;
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+ 
+  }
+  
+  /* Additional Screen Sizes */
+  
+  /* Width at 320px and below */
+  @media screen and (max-width: 980px) {
+    body {
+      background-color:pink;
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+  }
+  
+  /* Width at 640px and below */
+  @media screen and (max-width: 640px) {
+    body {
+      background-color:pink;
+    }
+  
+
+  
+  }
+  .footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: pink;
+}
+
