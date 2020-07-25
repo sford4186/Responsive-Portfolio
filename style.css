@@ -15,30 +15,18 @@
     background-color: pink;
   }
   
-
-  /*
-    The width of the wrapper will be 1024px
-    at browser widths above 768px
-  */
-  .wrapper {
-    /* Box-model */
+  .container {
     width: 1024px;
-  
-    /* Positioning */
-    margin: 40px auto;
+    margin: 0 auto;
   }
-
   
+
   @media screen and (max-width: 768px) {
     body {
       background-color: pink;
     }
   
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
+   
   
  
   }
@@ -47,13 +35,7 @@
     body {
       background-color: pink;
     }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-  
+   
  
   }
     
@@ -73,3 +55,10 @@
     
 }
 
+footer p {
+  color: ivory;
+}
+
+footer a {
+  color: darkblue;
+}
