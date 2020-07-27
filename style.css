@@ -11,7 +11,7 @@
     font-size: 18px;
     line-height: 27px;
   
-    /* Visual */
+    
     background-color: pink;
   }
   
@@ -20,7 +20,7 @@
     margin: 0 auto;
   }
   
-
+/*Width at 768px */
   @media screen and (max-width: 768px) {
     body {
       background-color: pink;
@@ -30,6 +30,8 @@
   
  
   }
+
+  /*Width at 980px */
   
   @media screen and (max-width: 980px) {
     body {
@@ -46,6 +48,9 @@
     }
     
   }
+
+  /*Footer Content*/
+
   footer {
     padding: 30px;
     clear: both;

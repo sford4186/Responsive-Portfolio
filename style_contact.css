@@ -13,7 +13,7 @@
     line-height: 27px;
     color: #1f1c1ce1;
   
-    /* Visual */
+    
     background-color: pink;
   }
   
@@ -22,18 +22,16 @@ h1 {
     text-align:center;
 }
  
-  /*
-    The width of the wrapper will be 1024px
-    at browser widths above 768px
-  */
+ 
   .wrapper {
-    /* Box-model */
+    
     width: 1024px;
   
-    /* Positioning */
+    
     margin: 40px auto;
   }
 
+  /*Width at 768px */
   
   @media screen and (max-width: 768px) {
     body {
@@ -49,6 +47,7 @@ h1 {
  
   }
   
+  /*Width ar 980px */
   @media screen and (max-width: 980px) {
     body {
       background-color: pink;
@@ -70,13 +69,14 @@ h1 {
       background-color:pink;
     }
     .wrapper {
-        /* Box-model */
+        
         width: 100%;
         padding: 20px;
       }
  
   }
 
+  /*Footer Content */
   footer {
     padding: 30px;
     clear: both;
