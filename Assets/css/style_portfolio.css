@@ -8,10 +8,12 @@
   
 
  img {
-     width:auto;
-     height: auto;
+     width:200px;
+     height: 200px;
      padding: 20px;
- }
+     border-color: purple;
+    }
+
   body {
     /* Typography */
     font-size: 18px;
@@ -19,6 +21,12 @@
     color: #1f1c1ce1;
      
     background-color: pink;
+  }
+
+  .card{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 30px;
   }
   
 h1 {
