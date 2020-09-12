@@ -14,14 +14,17 @@
      border-color: purple;
     }
 
-  body {
-    /* Typography */
-    font-size: 18px;
-    line-height: 27px;
-    color: #1f1c1ce1;
-     
-    background-color: pink;
-  }
+    body {
+      /* Typography */
+      font-size: 18px;
+      line-height: 27px;
+      min-height: 100vh;
+      
+      background-color: pink;
+      display: flex;
+      flex-direction: column;
+    }
+   
 
   .card{
     margin: 5px;
@@ -87,8 +90,9 @@ h1 {
 
   
   }
+  
   footer {
-    padding: 30px;
+    padding: 5px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -97,8 +101,10 @@ h1 {
 }
 footer p {
   color: ivory;
+  margin-bottom: 0px;
 }
 
 footer a {
   color: darkblue;
 }
+

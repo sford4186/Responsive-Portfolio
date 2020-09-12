@@ -10,9 +10,11 @@
     /* Typography */
     font-size: 18px;
     line-height: 27px;
-  
+    min-height: 100vh;
     
     background-color: pink;
+    display: flex;
+    flex-direction: column;
   }
   
   .container {
@@ -21,7 +23,9 @@
     background-color: ivory;
     
   }
-  
+main{
+  flex:1
+}  
   
 #main-bio,
 #contact-info,
@@ -45,7 +49,7 @@
   /* Positioning */
 
   margin-right: 20px;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 .wrapper {
@@ -126,7 +130,7 @@
   
   }
   footer {
-    padding: 30px;
+    padding: 5px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -135,6 +139,7 @@
 }
 footer p {
   color: ivory;
+  margin-bottom: 0px;
 }
 
 footer a {
