@@ -108,3 +108,7 @@ footer a {
   color: darkblue;
 }
 
+#button{
+  display: flex;  
+  flex-direction: column;
+}
