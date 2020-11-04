@@ -2,13 +2,15 @@
 
 The objective of this assignment is to create a responsive portfolio website that works well on various window or screen sizes.  
 
-# What I Plan to Accomplish :
+## Screenshot of Website  
+![Responsive-Portfolio screenshot](Assets/images/Capture.PNG);
 
-* Create 3 functional html pages
-* Utilize Bootstrap to create a navbar and a responsive layout
-* Use Semantic tags throughout the code
-* Apply recently learned knowledge of CSS, grid systems, and positioning mechanisms
+## Github Link
+Github Link: (https://github.com/haverab/Project2)
 
+## Deployed site
+
+[Responsive-Portfolio](https://sford4186.github.io/Responsive-Portfolio/)
 
 
 
